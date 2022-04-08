@@ -15,7 +15,7 @@ Due to COVID-19 we could only do this project online. The robot was simulated in
     Figure 1. The structure of the robot and the Unity simulation.
 </p>
 **Tag4:**<br>
-In this part, the task is to control the robot using keyboard input. We have to create a class ***KeyboardCtrl***. There are two methods Communicate() and Step() in it, which are enssential for the command transmission and sensor data collecting between the user and the robot.<br>
+The task of this part is to control the robot with the keyboard input. We have to create a class ***KeyboardCtrl***. There are two methods Communicate() and Step() in it, which are enssential for the command transmission and sensor data collecting between the user and the robot.<br>
 The structure of ***KeyboardCtrl*** seeing below:<br>
 <br>
 <br>
@@ -30,7 +30,7 @@ In the method Communicate() we use ***ncurses*** library to get the keyboard inp
 <br>
 ## 03: Maneuver control of a simulated robot<br>
 Tag5:
-In this part, the task is to control the robot with generated maneuvers. There are five classes including the given ***InterfaceSIM***. The other four classes to write are:
+The task of this part is to control the robot with generated maneuvers. There are five classes including the given ***InterfaceSIM***. The other four classes to write are:
   <br>**<*PosEstimation*>**:<br>
   calculate the current actual value of the position array x = (x, y, w) using the current speed and the position values stored by the previous timestep.
   <br>**<*Maneuver*>**:<br>
