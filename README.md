@@ -19,7 +19,7 @@ This repo contains C++ code of my practical course "Industrial Software Developm
   <br>
   <div align=center><img src="https://user-images.githubusercontent.com/83095045/162426568-9dcc4abf-be59-4f34-9762-12075ecc8c4a.png" width="500"></div>
   <br>
-  <div align=center>Figure 2. The concept of the class *KeyboardCtrl*.</div>
+  <div align=center>Figure 2. The concept of the class KeyboardCtrl.</div>
   <br>
 In the method Communicate() we use ***ncurses*** library to get the keyboard input from the user. The class ***InterfaceSIM*** was provided by tutor, which was used to transmit data between the method Step() and the robot. Finally, we created a controller class ***PIDCtrl*** to make the robot follow the command smoothly.<br>
   (figure 25)
