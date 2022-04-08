@@ -11,7 +11,7 @@ This repo contains C++ code of my practical course "Industrial Software Developm
   <br>
   <div align=center><img src="https://user-images.githubusercontent.com/83095045/162423509-9c13745a-bca6-4db5-890c-b6a433054c50.png" width="700"></div>
   <br>
-  <div align=center><Figure 1. The structure of the robot and the Unity simulation.></div>
+  <div align=center>Figure 1. The structure of the robot and the Unity simulation.</div>
   <br>
   In this part, the task is to control the robot using keyboard input. We have to create a class **<*KeyboardCtrl*>**. There are two methods Communicate() and Step() in it, which are enssential for the command transmission and sensor data collecting between the user and the robot.<br>
   The structure of **<*KeyboardCtrl*>** is like this:<br>
