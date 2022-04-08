@@ -1,5 +1,5 @@
 # pra-cpp
-This repo contains C++ code of my practical course "Industrial Software Development for Engineers / C++", using ***Eclipse C/C++*** as the IDE on Ubuntu. The project was divided into three parts:<br>
+This repo contains C++ code of my practical course "Industrial Software Development for Engineers / C++", using **Eclipse C/C++** as the IDE on Ubuntu. The project was divided into three parts:<br>
 <br>
 ## 01: Fundamentals of C++ programming<br>
   Tag1: Datatype, string, pointer, reference, static/dynamic storage reservation <br>
@@ -8,24 +8,24 @@ This repo contains C++ code of my practical course "Industrial Software Developm
   <br>
 ## 02: Keyboard control of a simulated robot<br>
 Due to COVID-19 we could only do this project online. The robot was simulated in a computergame-like program, which was built with **Unity** (which was contained in a by tutor provided virtual machine), instead of the hardware things. Anyway, a glance at the hardware structure of this robot is helpful for the understanding to the following works.<br>
-  <br>
-  <p align="center">
+<br>
+<p align="center">
     <img src="https://user-images.githubusercontent.com/83095045/162423509-9c13745a-bca6-4db5-890c-b6a433054c50.png" width="700">
     <br>
     Figure 1. The structure of the robot and the Unity simulation.
-  </p>
+</p>
 Tag4:<br>
 In this part, the task is to control the robot using keyboard input. We have to create a class ***KeyboardCtrl***. There are two methods Communicate() and Step() in it, which are enssential for the command transmission and sensor data collecting between the user and the robot.<br>
 The structure of ***KeyboardCtrl*** seeing below:<br>
-  (figure 22)<br>
-  <br>
-  <br>
-  <p align="center">
+<br>
+<br>
+<br>
+<p align="center">
     <img src="https://user-images.githubusercontent.com/83095045/162426568-9dcc4abf-be59-4f34-9762-12075ecc8c4a.png" width="500">
     <br>
     Figure 2. The concept of the class KeyboardCtrl.
-  </p>
-  <br>
+</p>
+<br>
 In the method Communicate() we use ***ncurses*** library to get the keyboard input from the user. The class ***InterfaceSIM*** was provided by tutor, which was used to transmit data between the method Step() and the robot. Finally, we created a controller class ***PIDCtrl*** to make the robot follow the command smoothly.<br>
 <br>
 ## 03: Maneuver control of a simulated robot<br>
