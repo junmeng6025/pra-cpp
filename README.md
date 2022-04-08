@@ -14,17 +14,14 @@ Due to COVID-19 we could only do this project online. The robot was simulated in
     <br>
     Figure 1. The structure of the robot and the Unity simulation.
 </p>
+<br>
 **Tag4:**<br>
 The task of this part is to control the robot with the keyboard input. We have to create a class ***KeyboardCtrl***. There are two methods Communicate() and Step() in it, which are enssential for the command transmission and sensor data collecting between the user and the robot.<br>
 The structure of ***KeyboardCtrl*** seeing below:<br>
 <br>
+<img src="https://user-images.githubusercontent.com/83095045/162426568-9dcc4abf-be59-4f34-9762-12075ecc8c4a.png" width="500">
 <br>
-<br>
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/83095045/162426568-9dcc4abf-be59-4f34-9762-12075ecc8c4a.png" width="500">
-    <br>
-    Figure 2. The concept of the class KeyboardCtrl.
-</p>
+Figure 2. The concept of the class KeyboardCtrl.
 <br>
 In the method Communicate() we use ***ncurses*** library to get the keyboard input from the user. The class ***InterfaceSIM*** was provided by tutor, which was used to transmit data between the method Step() and the robot. Finally, we created a controller class ***PIDCtrl*** to make the robot follow the command smoothly.<br>
 <br>
