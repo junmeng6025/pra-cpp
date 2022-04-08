@@ -9,7 +9,9 @@ This repo contains C++ code of my practical course "Industrial Software Developm
 ## 02: Keyboard control of a simulated robot<br>
   Due to COVID-19 we could only do this project online. The robot was simulated in a computergame-like program, which was built with **Unity** (which was contained in a by tutor provided virtual machine), instead of the hardware things. Anyway, a glance at the hardware structure of this robot is still helpful for the understanding of the following works.<br>
   <br>
-  <div align=center><img src="https://user-images.githubusercontent.com/83095045/162421539-3cc86576-c34f-471c-9716-44b2f6b3e84a.png" width="700"></div>
+  <div align=center><img src="https://user-images.githubusercontent.com/83095045/162423509-9c13745a-bca6-4db5-890c-b6a433054c50.png" width="700"></div>
+  <br>
+  <div align=center>Figure 1. The structure of the robot and the Unity simulation.</div>
   <br>
   In this part, the task is to control the robot using keyboard input. We have to create a class **<*KeyboardCtrl*>**. There are two methods Communicate() and Step() in it, which are enssential for the command transmission and sensor data collecting between the user and the robot.<br>
   The structure of **<*KeyboardCtrl*>** is like this:<br>
