@@ -13,19 +13,19 @@ This repo contains C++ code of my practical course "Industrial Software Developm
   <br>
   <div align=center>Figure 1. The structure of the robot and the Unity simulation.</div>
   <br>
-  In this part, the task is to control the robot using keyboard input. We have to create a class **<*KeyboardCtrl*>**. There are two methods Communicate() and Step() in it, which are enssential for the command transmission and sensor data collecting between the user and the robot.<br>
-  The structure of **<*KeyboardCtrl*>** is like this:<br>
+  In this part, the task is to control the robot using keyboard input. We have to create a class ***KeyboardCtrl***. There are two methods Communicate() and Step() in it, which are enssential for the command transmission and sensor data collecting between the user and the robot.<br>
+  The structure of ***KeyboardCtrl*** is like this:<br>
   (figure 22)<br>
   <br>
   <div align=center><img src="https://user-images.githubusercontent.com/83095045/162426568-9dcc4abf-be59-4f34-9762-12075ecc8c4a.png" width="500"></div>
   <br>
-  <div align=center>Figure 2. The concept of the class <KeyboardCtrl>.</div>
+  <div align=center>Figure 2. The concept of the class *KeyboardCtrl*.</div>
   <br>
-In the method Communicate() we use ***ncurses*** library to get the keyboard input from the user. The class **<*InterfaceSIM*>** was provided by tutor, which was used to transmit data between the method Step() and the robot. Finally, we created a controller class **<*PIDCtrl*>** to make the robot follow the command smoothly.<br>
+In the method Communicate() we use ***ncurses*** library to get the keyboard input from the user. The class ***InterfaceSIM*** was provided by tutor, which was used to transmit data between the method Step() and the robot. Finally, we created a controller class ***PIDCtrl*** to make the robot follow the command smoothly.<br>
   (figure 25)
 <br>
 ## 03: Maneuver control of a simulated robot<br>
-  In this part, the task is to control the robot with generated maneuvers. There are five classes including the given **<*InterfaceSIM*>**. The other four classes to write are:
+  In this part, the task is to control the robot with generated maneuvers. There are five classes including the given ***InterfaceSIM***. The other four classes to write are:
   <br>**<*PosEstimation*>**:<br>
   calculate the current actual value of the position array x = (x, y, w) using the current speed and the position values stored by the previous timestep.
   <br>**<*Maneuver*>**:<br>
