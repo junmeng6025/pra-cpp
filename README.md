@@ -9,7 +9,7 @@ This repo contains C++ code of my practical course "Industrial Software Developm
 ## 02: Keyboard control of a simulated robot<br>
   Due to COVID-19 we could only do this project online. The robot was simulated in a computergame-like program, which was built with **Unity** (which was contained in a by tutor provided virtual machine), instead of the hardware things. Anyway, a glance at the hardware structure of this robot is still helpful for the understanding of the following works.<br>
   <br>
-  <div align=center><img src="https://user-images.githubusercontent.com/83095045/162423509-9c13745a-bca6-4db5-890c-b6a433054c50.png" width="700"></div>
+  <p align=center><img src="https://user-images.githubusercontent.com/83095045/162423509-9c13745a-bca6-4db5-890c-b6a433054c50.png" width="700"></p>
   <br>
   <div align=center>Figure 1. The structure of the robot and the Unity simulation.</div>
   <br>
