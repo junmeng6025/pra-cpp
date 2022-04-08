@@ -7,7 +7,7 @@ This repo contains C++ code of my practical course "Industrial Software Developm
   recursion, data read and write from file, try-catch block, list<br>
   <br>
 **02: Keyboard control of a simulated robot**<br>
-  due to COVID-19 we could only do this project online. The robot was simulated in a computergame-like program, which was built with Unity (which was contained in a by tutor provided virtual machine), instead of the hardware things. Anyway, a glance at hardware construction of this robot is still helpful to the understanding of the following work.<br>
+  due to COVID-19 we could only do this project online. The robot was simulated in a computergame-like program, which was built with Unity (which was contained in a by tutor provided virtual machine), instead of the hardware things. Anyway, a glance at the hardware structure of this robot is still helpful for the understanding of the following works.<br>
   (figure 19)
   <br>
   In this part, the task is to control the robot using keyboard input. We have to create a class <*KeyboardCtrl*>. There are two methods Communicate() and Step() in it, which are enssential for the command transmission and sensor data collecting between the user and the robot.<br>
