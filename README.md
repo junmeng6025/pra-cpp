@@ -1,4 +1,6 @@
 # pra-cpp
+![52bdeaa1aed1c6419f148a70d3deafd](https://user-images.githubusercontent.com/83095045/162418306-240b0f6d-ed8f-45ef-a891-0eb2a4f6eb09.jpg)
+
 This repo contains C++ code of my practical course "Industrial Software Development for Engineers / C++", using ***Eclipse C/C++*** as the IDE on Ubuntu. The project was divided into three parts:<br>
 <br>
 ## 01: Fundamentals of C++ programming<br>
