@@ -10,8 +10,15 @@ This repo contains C++ code of my practical course "Industrial Software Developm
 Due to COVID-19 we could only do this project online. The robot was simulated in a computergame-like program, which was built with **Unity** (which was contained in a by tutor provided virtual machine), instead of the hardware things. Anyway, a glance at the hardware structure of this robot is helpful for the understanding to the following works.<br>
 
 <div align=center><img src="https://user-images.githubusercontent.com/83095045/162573855-60ed8393-7099-4b26-9706-8c61db6a80aa.png" width="700"></div>
-<br>
-<center>Figure 1. Overview of the "MoonRover" robot structure and the simulation rendered in Unity.</center>
+
+<center>
+    <img src="https://user-images.githubusercontent.com/83095045/162573855-60ed8393-7099-4b26-9706-8c61db6a80aa.png" width="700">
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">Figure 1. Overview of the "MoonRover" robot structure and the simulation rendered in Unity.</div>
+</center>
+
 <br>
 **Tag4:**<br>
 The task of this part is to control the robot with the keyboard input. We have to create a class ***KeyboardCtrl***. There are two methods Communicate() and Step() in it, which are enssential for the command transmission and sensor data collecting between the user and the robot.<br>
