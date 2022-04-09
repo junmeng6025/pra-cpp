@@ -7,8 +7,15 @@ This repo contains C++ code of my practical course "Industrial Software Developm
   **Tag3:** <br>    Recursion, data read and write from file, try-catch block, list<br>
   <br>
 ## 02: Keyboard control of a simulated robot<br>
-Due to COVID-19 we could only do this project online. The robot was simulated in a computergame-like program, which was built with **Unity** (which was contained in a by tutor provided virtual machine), instead of the hardware things. Anyway, a glance at the hardware structure of this robot is helpful for the understanding to the following works.<br>
-
+Due to COVID-19 we could only do this project online. The robot was simulated in a computergame-like program, which was built with **Unity** , instead of the hardware things. Anyway, a glance at the hardware structure of this robot is helpful for the understanding to the following works.<br>
+<br>
+<div align=center>
+    <img src="https://user-images.githubusercontent.com/83095045/162574576-0e5d7051-e2be-4eae-83a7-db96ffe1be60.png" width="700">
+    Figure 1. The hardware structure and the rendered simulation of "MoonRover" robot.
+</div>
+<br>
+All the required libraries (ncurses, jsoncpp, rt, etc.) and the **"MoonRover"** program were already contained in a by tutor provided virtual machine **Ubuntu_IDE_SEFI_Online**. If you are interested in this project and want to replicate it, I recommand you launch the codes on this virtual machine.
+<br>
 **Tag4:**<br>
 The task of this part is to control the robot with the keyboard input. We have to create a class ***KeyboardCtrl***. There are two methods Communicate() and Step() in it, which are enssential for the command transmission and sensor data collecting between the user and the robot.<br>
 The structure of ***KeyboardCtrl*** seeing below:<br>
