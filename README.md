@@ -11,7 +11,7 @@ Due to COVID-19 we could only do this project online. The robot was simulated in
 
 <div align=center><img src="https://user-images.githubusercontent.com/83095045/162573855-60ed8393-7099-4b26-9706-8c61db6a80aa.png" width="700"></div>
 <br>
-<div align=center>Figure 1. Overview of the "MoonRover" robot structure and the simulation rendered in Unity.</div>
+<center>Figure 1. Overview of the "MoonRover" robot structure and the simulation rendered in Unity.</center>
 <br>
 **Tag4:**<br>
 The task of this part is to control the robot with the keyboard input. We have to create a class ***KeyboardCtrl***. There are two methods Communicate() and Step() in it, which are enssential for the command transmission and sensor data collecting between the user and the robot.<br>
