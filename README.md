@@ -2,9 +2,9 @@
 This repo contains C++ code of my practical course "Industrial Software Development for Engineers / C++", using **Eclipse C/C++** as the IDE on Ubuntu. The project was divided into three parts:<br>
 <br>
 ## 01: Fundamentals of C++ programming<br>
-  **Tag1:** Datatype, string, pointer, reference, static/dynamic storage reservation <br>
-  **Tag2:** OOP: class, overload, override, inheritance<br>
-  **Tag3:** Recursion, data read and write from file, try-catch block, list<br>
+  **Tag1:** <br>    Datatype, string, pointer, reference, static/dynamic storage reservation <br>
+  **Tag2:** <br>    OOP: class, overload, override, inheritance<br>
+  **Tag3:** <br>    Recursion, data read and write from file, try-catch block, list<br>
   <br>
 ## 02: Keyboard control of a simulated robot<br>
 Due to COVID-19 we could only do this project online. The robot was simulated in a computergame-like program, which was built with **Unity** (which was contained in a by tutor provided virtual machine), instead of the hardware things. Anyway, a glance at the hardware structure of this robot is helpful for the understanding to the following works.<br>
@@ -15,7 +15,7 @@ The structure of ***KeyboardCtrl*** seeing below:<br>
 In the method Communicate() we use ***ncurses*** library to get the keyboard input from the user. The class ***InterfaceSIM*** was provided by tutor, which was used to transmit data between the method Step() and the robot. Finally, we created a controller class ***PIDCtrl*** to make the robot follow the command smoothly.<br>
 <br>
 ## 03: Maneuver control of a simulated robot<br>
-**Tag5:**
+**Tag5:**<br>
 The task of this part is to control the robot with generated maneuvers. There are five classes including the given ***InterfaceSIM***. The other four classes to write are:
   <br>**<*PosEstimation*>**:<br>
   calculate the current actual value of the position array x = (x, y, w) using the current speed and the position values stored by the previous timestep.
