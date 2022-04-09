@@ -9,7 +9,7 @@ This repo contains C++ code of my practical course "Industrial Software Developm
 ## 02: Keyboard control of a simulated robot<br>
 Due to COVID-19 we could only do this project online. The robot was simulated in a computergame-like program, which was built with **Unity** , instead of the hardware things. Anyway, a glance at the hardware structure of this robot is helpful for the understanding to the following works.<br>
 <br>
-![image](https://user-images.githubusercontent.com/83095045/162574743-7372de6e-b164-4e3e-a1fa-3b271617c743.png)
+<div align=center><img src="https://user-images.githubusercontent.com/83095045/162574743-7372de6e-b164-4e3e-a1fa-3b271617c743.png" width="700"></div>
 <br>
 All the required libraries (ncurses, jsoncpp, rt, etc.) and the **"MoonRover"** simulation program were already provided by tutor in the virtual machine **Ubuntu_IDE_SEFI_Online**. If you are interested in this project and want to replicate it, I recommand you launch the codes on this virtual machine.<br>
 <br>
