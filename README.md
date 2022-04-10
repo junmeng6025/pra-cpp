@@ -54,7 +54,6 @@ Here is an overview of the entire architecture:<br>
  <br>
 
 **Demo Tag5:**<br>
-  <br>
 | circle | 8-shaped |
 | :---- | :---- |
 | <img src="./Demo/demo_tag5_circle.gif" width="600"> | <img src="./Demo/demo_tag5_8.gif" width="600"> |
