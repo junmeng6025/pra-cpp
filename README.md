@@ -37,7 +37,6 @@ In the method **Communicate()** we use the library ***ncurses*** to get the keyb
   
   
   
-<br>
 ## 03: Maneuver control of a simulated robot
 **Tag5:**<br>
 The task of this part is to control the robot with two generated maneuvers: a circle trajectory and an 8-shaped trajectory. Besides the given class **<*InterfaceSIM*>** there are four more classes to write:<br>
