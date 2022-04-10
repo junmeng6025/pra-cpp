@@ -28,9 +28,8 @@ All the required libraries (ncurses, jsoncpp, rt ...) and the "MoonRover" simula
 The task of this part is to control the robot with the keyboard input. We have to create a class **<*KeyboardControl*>** to establish the data stream between the user and the robot. It contains two methods: **Communicate()** and **Step()**. The structure of <KeyboardControl> seeing below:<br>
 <br>
   ![image](https://user-images.githubusercontent.com/83095045/162619854-ecc6c23d-d7ea-4646-ac79-c057a62cbe6a.png)<br>
-<br>
   <div align=center>
-    Fig 2. The concept of the class <KeyboardControl>.<br>
+    Fig 2. The concept of the class KeyboardControl.<br>
     <br>
     </div>
     
@@ -68,7 +67,11 @@ the **"master class"**. It manages the call of the functions of each class at th
   <br>
 Here is an overview of the entire architecture:<br>
 ![image](https://user-images.githubusercontent.com/83095045/162617954-79e56018-e1f9-4385-89cc-f04eeee86cc4.png)<br>
- <br>
+<div align=center>
+    Fig 3. The concept of the classes used in RobotControl.<br>
+    <br>
+    </div>
+  
 
 **Demo Tag5:**<br>
 | circle | 8-shaped |
