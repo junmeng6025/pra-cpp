@@ -65,7 +65,7 @@ provides a PID controller that adjusts the actual value to the target value smoo
 **<*RobotControl*>:**<br>
 the **"master class"**. It manages the call of the functions of each class at the right time and is similar to the **<*KeyboardControl*>** class of the previous part. It initializes objects of the respective classes, has an interface for communication with the user (**Communicate()**) and provides the interface with a function for iterative calculation of the calculated maneuver (**Step()**).<br>
   <br>
-Here is an overview of the entire architecture:<br>
+Here is an overview of the entire architecture:<br>  
 ![image](https://user-images.githubusercontent.com/83095045/162617954-79e56018-e1f9-4385-89cc-f04eeee86cc4.png)<br>
 <div align=center>
     Fig 3. The concept of the classes used in RobotControl.<br>
