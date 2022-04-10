@@ -52,18 +52,14 @@ the **"master class"**. It manages the call of the functions of each class at th
 Here is an overview of the entire architecture:<br>
 ![image](https://user-images.githubusercontent.com/83095045/162617954-79e56018-e1f9-4385-89cc-f04eeee86cc4.png)<br>
  <br>
-**Demo Tag5:** circle trajectory<br>
-  <br>
-  ![demo_tag5_ciecle](./Demo/demo_tag5_circle.gif)<br>
-  <br>
-  <br>
-**Demo Tag5:** 8-shaped trajectory<br>
-  <br>
-  ![demo_tag5_8](./Demo/demo_tag5_8.gif)<br>
+
+**Demo Tag5:**<br>
   <br>
 | circle | 8-shaped |
 | :---- | :---- |
 | <img src="./Demo/demo_tag5_circle.gif" width="600"> | <img src="./Demo/demo_tag5_8.gif" width="600"> |
+| Radius = 0.5m | Radius = 0.3m |
+|Speed = 0.3m/s | Speed = 0.3m/s|
   <br>
-For detailed tutorials, please check the PDF script **[2022-03-27_SEPR_Skript]** (in German language).<br>
+For detailed tutorials, please check the script [2022-03-27_SEPR_Skript.pdf] (in German language).<br>
 © Copyright AIS, TUM 2022
