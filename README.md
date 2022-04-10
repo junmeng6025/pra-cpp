@@ -15,11 +15,11 @@ Due to the COVID-19 pandemic, this project was organized online. Instead of the 
 <div align=center>
   <img src="https://user-images.githubusercontent.com/83095045/162617975-0fa988e1-b323-481f-8dad-53976ae8b847.png" width="700"><br>
   Fig 1. The hardware structure and the rendered simulation of "MoonRover" robot.<br>
+  <br>
 </div>  
 
 
 
-<br>
 ***To whom wants to replicate this project:**<br>
 All the required libraries (ncurses, jsoncpp, rt ...) and the "MoonRover" simulation program were already provided by the tutor in the virtual machine **Ubuntu_IDE_SEFI_Online**. If you are interested in this project and want to replicate it, it is recommended to edit and run the codes on this virtual machine using **VMware Player**.*<br>
 (*download “Ubuntu_IDE_SEFI_Online”*).<br>
