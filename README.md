@@ -74,7 +74,7 @@ Here is an overview of the entire architecture:<br>
   
 
 **Demo Tag5:**<br>
-| circle | 8-shaped |
+| circle trajectory | 8-shaped trajectory |
 | :---- | :---- |
 | <img src="./Demo/demo_tag5_circle.gif" width="600"> | <img src="./Demo/demo_tag5_8.gif" width="600"> |
 | Radius = 0.5m | Radius = 0.3m |
