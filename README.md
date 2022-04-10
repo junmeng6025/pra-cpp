@@ -18,8 +18,6 @@ All the required libraries (ncurses, jsoncpp, rt ...) and the "MoonRover" simula
 (*download “Ubuntu_IDE_SEFI_Online”*).<br>
 <br>
 **Tag4:**<br>
-  <br>
-  <br>
 The task of this part is to control the robot with the keyboard input. We have to create a class **<*KeyboardControl*>** to establish the data stream between the user and the robot. It contains two methods: **Communicate()** and **Step()**. The structure of <KeyboardControl> seeing below:<br>
 <br>
   ![image](https://user-images.githubusercontent.com/83095045/162619854-ecc6c23d-d7ea-4646-ac79-c057a62cbe6a.png)<br>
@@ -27,6 +25,7 @@ The task of this part is to control the robot with the keyboard input. We have t
 In the method **Communicate()** we use the library ***ncurses*** to get the keyboard input from the user. The class **<*InterfaceSIM*>** was provided by the tutor, which is used to transmit data between the method **Step()** and the robot. Finally, we created a controller class **<*PIDCtrl*>** to make the robot follow the command smoothly.<br>
 <br>
 **Demo Tag4:**<br>
+  <br>
  ![demo_tag4](./Demo/demo_tag4.gif)<br>
 <br>
   commands:<br>
