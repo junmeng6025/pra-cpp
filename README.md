@@ -74,6 +74,7 @@ Here is an overview of the entire architecture:<br>
   
 
 **Demo Tag5:**<br>
+  commands: [1]: start; [2]: stop; [3]: proceed.  
 | circle trajectory | 8-shaped trajectory |
 | :---- | :---- |
 | <img src="./Demo/demo_tag5_circle.gif" width="600"> | <img src="./Demo/demo_tag5_8.gif" width="600"> |
@@ -81,10 +82,7 @@ Here is an overview of the entire architecture:<br>
 |Speed = 0.3m/s | Speed = 0.3m/s|
   
   
-  commands:  
-  [1]: start;  
-  [2]: stop;  
-  [3]: proceed.  
+  
   <br>
 For more detailed tutorials, please check the script **[2022-03-27_SEPR_Skript.pdf]** (in German language).<br>
 © Copyright AIS, TUM 2022
