@@ -1,12 +1,12 @@
 # pra-cpp
 <br>
-This repo contains the C++ code of my practical course "Industrial Software Development for Engineers / C++", edited with the IDE **Eclipse C/C++** on Ubuntu. The project was divided into the following three parts:<br>
-## 01: Fundamentals of C++ programming
+This repo contains the C++ code of my practical course "Industrial Software Development for Engineers / C++", edited with the IDE Eclipse C/C++ on Ubuntu. The project was divided into the following three parts:<br>
+## 01: Fundamentals of C++ programming<br>
 **Tag1:** Data type, string, pointer, reference, static/dynamic storage reservation.<br>
 **Tag2:** OOP: class, overload, override, inheritance.<br>
 **Tag3:** Recursion, data read and write from the file, try-catch block, list.<br>
 <br>
-## 02: Keyboard control of a simulated robot
+## 02: Keyboard control of a simulated robot<br>
 Due to the COVID-19 pandemic, this project was organized online. Instead of the hardware things, the robot was simulated virtually in a program, which was launched by **Unity.** Anyway, a glance at the hardware structure of this robot helps to understand the following works:
 
 Fig 1. The hardware structure and the rendered simulation of the “MoonRover” Robot.
