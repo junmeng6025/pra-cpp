@@ -24,6 +24,8 @@ The task of this part is to control the robot with the keyboard input. We have t
 <br>
 In the method **Communicate()** we use the library ***ncurses*** to get the keyboard input from the user. The class **<*InterfaceSIM*>** was provided by the tutor, which is used to transmit data between the method **Step()** and the robot. Finally, we created a controller class **<*PIDCtrl*>** to make the robot follow the command smoothly.<br>
 <br>
+ ![demo_tag4](./Demo/demo_tag4.gif)<br>
+<br>
 ## 03: Maneuver control of a simulated robot
 **Tag5:**<br>
 The task of this part is to control the robot with two generated maneuvers: a circle trajectory and an 8-shaped trajectory. Besides the given class **<*InterfaceSIM*>** there are four more classes to write:<br>
