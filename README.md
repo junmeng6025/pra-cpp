@@ -85,4 +85,4 @@ Here is an overview of the entire architecture:<br>
   
 
 For more detailed tutorials, please check the script **[2022-03-27_SEPR_Skript.pdf]** (in German language).<br>
-© Copyright AIS, TUM 2022
+Copyright © AIS, TUM 2022
