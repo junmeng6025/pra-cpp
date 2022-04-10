@@ -1,6 +1,6 @@
 # pra-cpp
 
-This repo contains the C++ code of my practical course "Industrial Software Development for Engineers / C++", edited with the IDE **Eclipse C/C++** on **Ubuntu**. The project was divided into the following three parts:<br>
+This repo contains the code of my practical course **"Industrial Software Development for Engineers / C++"**. The code were edited with the IDE **Eclipse C/C++** on **Ubuntu**. The consists of the following three parts:<br>
 <br>
 ## 01: Fundamentals of C++ programming
 
