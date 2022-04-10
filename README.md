@@ -58,7 +58,8 @@ Here is an overview of the entire architecture:<br>
 | :---- | :---- |
 | <img src="./Demo/demo_tag5_circle.gif" width="600"> | <img src="./Demo/demo_tag5_8.gif" width="600"> |
 | Radius = 0.5m | Radius = 0.3m |
-|Speed = 0.3m/s | Speed = 0.3m/s|<br>
+|Speed = 0.3m/s | Speed = 0.3m/s|
+  <br>
   commands:  
   [1]: start;  
   [2]: stop;  
