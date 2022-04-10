@@ -1,6 +1,6 @@
 # Industrial Software Development for Engineers / C++
 
-This repo contains the code of my practical course **"Industrial Software Development for Engineers / C++"**. The code were edited with the IDE **Eclipse C/C++** on the **Ubuntu** OS. The consists of the following three parts:<br>
+This repo contains the code of my practical course **"Industrial Software Development for Engineers / C++"**. The code were edited with the IDE **Eclipse C/C++** on the **Ubuntu** OS. The project consists of the following three parts:<br>
 <br>
 ## 01: Fundamentals of C++ programming
 
