@@ -11,7 +11,7 @@ This repo contains the C++ code of my practical course "Industrial Software Deve
 ## 02: Keyboard control of a simulated robot
 Due to the COVID-19 pandemic, this project was organized online. Instead of the hardware things, the robot was simulated using **Unity** engine. Anyway, a glance at the hardware structure of this robot helps to understand the following works:<br>
 <br>
-![image](https://user-images.githubusercontent.com/83095045/162617975-0fa988e1-b323-481f-8dad-53976ae8b847.png)<br>
+<img src="https://user-images.githubusercontent.com/83095045/162617975-0fa988e1-b323-481f-8dad-53976ae8b847.png" width="700"><br>
 <br>
 To whom wants to replicate this project:<br>
 All the required libraries (ncurses, jsoncpp, rt ...) and the "MoonRover" simulation program were already provided by the tutor in the virtual machine **Ubuntu_IDE_SEFI_Online**. If you are interested in this project and want to replicate it, it is recommended to edit and run the codes on this virtual machine using **VMware Player**.<br>
@@ -20,7 +20,7 @@ All the required libraries (ncurses, jsoncpp, rt ...) and the "MoonRover" simula
 **Tag4:**<br>
 The task of this part is to control the robot with the keyboard input. We have to create a class **<*KeyboardControl*>** to establish the data stream between the user and the robot. It contains two methods: **Communicate()** and **Step()**. The structure of <KeyboardControl> seeing below:<br>
 <br>
-![image](https://user-images.githubusercontent.com/83095045/162617691-9ebca060-8b30-4fee-8e9b-d729c98f8857.png)<br>
+<img src="https://user-images.githubusercontent.com/83095045/162617691-9ebca060-8b30-4fee-8e9b-d729c98f8857.png" width="700"><br>
 <br>
 In the method **Communicate()** we use the library ***ncurses*** to get the keyboard input from the user. The class **<*InterfaceSIM*>** was provided by the tutor, which is used to transmit data between the method **Step()** and the robot. Finally, we created a controller class **<*PIDCtrl*>** to make the robot follow the command smoothly.<br>
 <br>
