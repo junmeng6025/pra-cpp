@@ -10,10 +10,12 @@ This repo contains the code of my practical course **"Industrial Software Develo
 <br>
 ## 02: Keyboard control of a simulated robot
 Due to the COVID-19 pandemic, this project was organized online. Instead of the hardware things, the robot was simulated using **Unity** engine. Anyway, having a glance at the robot's hardware structure helps to understand our following works:<br>
+
 <br>
-<img src="https://user-images.githubusercontent.com/83095045/162617975-0fa988e1-b323-481f-8dad-53976ae8b847.png" width="700"><br>
-<br>
-<div align=center><img src="https://user-images.githubusercontent.com/83095045/162617975-0fa988e1-b323-481f-8dad-53976ae8b847.png" width="700"></div>  
+<div align=center>
+  <img src="https://user-images.githubusercontent.com/83095045/162617975-0fa988e1-b323-481f-8dad-53976ae8b847.png" width="700"><br>
+  Fig 1. The hardware structure and the rendered simulation of "MoonRover" robot.<br>
+</div>  
 
 
 *To whom wants to replicate this project:<br>
