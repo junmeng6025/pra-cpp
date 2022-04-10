@@ -13,14 +13,14 @@ Due to the COVID-19 pandemic, this project was organized online. Instead of the 
 <br>
 <img src="https://user-images.githubusercontent.com/83095045/162617975-0fa988e1-b323-481f-8dad-53976ae8b847.png" width="700"><br>
 <br>
-To whom wants to replicate this project:<br>
-All the required libraries (ncurses, jsoncpp, rt ...) and the "MoonRover" simulation program were already provided by the tutor in the virtual machine **Ubuntu_IDE_SEFI_Online**. If you are interested in this project and want to replicate it, it is recommended to edit and run the codes on this virtual machine using **VMware Player**.<br>
+*To whom wants to replicate this project:<br>
+All the required libraries (ncurses, jsoncpp, rt ...) and the "MoonRover" simulation program were already provided by the tutor in the virtual machine **Ubuntu_IDE_SEFI_Online**. If you are interested in this project and want to replicate it, it is recommended to edit and run the codes on this virtual machine using **VMware Player**.*<br>
 (*download “Ubuntu_IDE_SEFI_Online”*).<br>
 <br>
 **Tag4:**<br>
 The task of this part is to control the robot with the keyboard input. We have to create a class **<*KeyboardControl*>** to establish the data stream between the user and the robot. It contains two methods: **Communicate()** and **Step()**. The structure of <KeyboardControl> seeing below:<br>
 <br>
-  ![image](https://user-images.githubusercontent.com/83095045/162619854-ecc6c23d-d7ea-4646-ac79-c057a62cbe6a.png)
+  ![image](https://user-images.githubusercontent.com/83095045/162619854-ecc6c23d-d7ea-4646-ac79-c057a62cbe6a.png)<br>
 <br>
 In the method **Communicate()** we use the library ***ncurses*** to get the keyboard input from the user. The class **<*InterfaceSIM*>** was provided by the tutor, which is used to transmit data between the method **Step()** and the robot. Finally, we created a controller class **<*PIDCtrl*>** to make the robot follow the command smoothly.<br>
 <br>
