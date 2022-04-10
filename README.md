@@ -77,5 +77,5 @@ Here is an overview of the entire architecture:<br>
   [2]: stop;  
   [3]: proceed.  
   <br>
-For detailed tutorials, please check the script **[2022-03-27_SEPR_Skript.pdf]** (in German language).<br>
+For more detailed tutorials, please check the script **[2022-03-27_SEPR_Skript.pdf]** (in German language).<br>
 © Copyright AIS, TUM 2022
