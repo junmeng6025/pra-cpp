@@ -9,7 +9,7 @@ This repo contains the C++ code of my practical course "Industrial Software Deve
 **Tag3:** Recursion, data read and write from the file, try-catch block, list.<br>
 <br>
 ## 02: Keyboard control of a simulated robot
-Due to the COVID-19 pandemic, this project was organized online. Instead of the hardware things, the robot was simulated using **Unity** engine. Anyway, a glance at the hardware structure of this robot helps to understand the following works:<br>
+Due to the COVID-19 pandemic, this project was organized online. Instead of the hardware things, the robot was simulated using **Unity** engine. Anyway, having a glance at the robot's hardware structure helps to understand our following works:<br>
 <br>
 <img src="https://user-images.githubusercontent.com/83095045/162617975-0fa988e1-b323-481f-8dad-53976ae8b847.png" width="700"><br>
 <br>
@@ -41,5 +41,7 @@ provides a PID controller that adjusts the actual value to the target value smoo
 the **"master class"**. It manages the call of the functions of each class at the right time and is similar to the **<*KeyboardControl*>** class of the previous part. It initializes objects of the respective classes, has an interface for communication with the user (**Communicate()**) and provides the interface with a function for iterative calculation of the calculated maneuver (**Step()**).<br>
   <br>
 Here is an overview of the entire architecture:<br>
-![image](https://user-images.githubusercontent.com/83095045/162617954-79e56018-e1f9-4385-89cc-f04eeee86cc4.png)
-
+![image](https://user-images.githubusercontent.com/83095045/162617954-79e56018-e1f9-4385-89cc-f04eeee86cc4.png)<br>
+ <br>
+For detailed tutorials, please check the PDF script **[2022-03-27_SEPR_Skript]** (in German language).<br>
+Copyright AIS 2022
