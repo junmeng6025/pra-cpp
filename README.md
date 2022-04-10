@@ -68,7 +68,7 @@ the **"master class"**. It manages the call of the functions of each class at th
 Here is an overview of the entire architecture:<br>  
 ![image](https://user-images.githubusercontent.com/83095045/162617954-79e56018-e1f9-4385-89cc-f04eeee86cc4.png)<br>
 <div align=center>
-    Fig 3. The concept of the classes used in RobotControl.<br>
+    Fig 3. The class diagrams of the maneuver control task.<br>
     <br>
     </div>
   
