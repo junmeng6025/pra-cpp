@@ -61,5 +61,8 @@ Here is an overview of the entire architecture:<br>
   <br>
   ![demo_tag5_8](./Demo/demo_tag5_8.gif)<br>
   <br>
+| circle | 8-shaped |
+| :---- | :---- |
+| <img src="./Demo/demo_tag5_circle.gif" width="300"> | <img src="./Demo/demo_tag5_8.gif" width="300"> |
 For detailed tutorials, please check the PDF script **[2022-03-27_SEPR_Skript]** (in German language).<br>
 © Copyright AIS, TUM 2022
