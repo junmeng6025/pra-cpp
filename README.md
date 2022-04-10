@@ -36,6 +36,7 @@ In the method **Communicate()** we use the library ***ncurses*** to get the keyb
   | 'q' | quit the control panel |
   
   
+  
 <br>
 ## 03: Maneuver control of a simulated robot
 **Tag5:**<br>
