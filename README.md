@@ -29,6 +29,12 @@ The task of this part is to control the robot with the keyboard input. We have t
 <br>
   ![image](https://user-images.githubusercontent.com/83095045/162619854-ecc6c23d-d7ea-4646-ac79-c057a62cbe6a.png)<br>
 <br>
+  <div align=center>
+    Fig 2. The concept of the class <KeyboardControl>.<br>
+    <br>
+    </div>
+    
+    
 In the method **Communicate()** we use the library ***ncurses*** to get the keyboard input from the user. The class **<*InterfaceSIM*>** was provided by the tutor, which is used to transmit data between the method **Step()** and the robot. Finally, we created a controller class **<*PIDCtrl*>** to make the robot follow the command smoothly.<br>
 <br>
 **Demo Tag4:**<br>
