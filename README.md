@@ -28,6 +28,10 @@ In the method **Communicate()** we use the library ***ncurses*** to get the keyb
   <br>
  ![demo_tag4](./Demo/demo_tag4.gif)<br>
 <br>
+  commands:  
+  'w', 'a', 's', 'd': directions  
+  'b': brake  
+  'q': quit the control panel
 <br>
 ## 03: Maneuver control of a simulated robot
 **Tag5:**<br>
