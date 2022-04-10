@@ -59,6 +59,10 @@ Here is an overview of the entire architecture:<br>
 | <img src="./Demo/demo_tag5_circle.gif" width="600"> | <img src="./Demo/demo_tag5_8.gif" width="600"> |
 | Radius = 0.5m | Radius = 0.3m |
 |Speed = 0.3m/s | Speed = 0.3m/s|
+  commands:  
+  [1]: start.  
+  [2]: stop.  
+  [3]: proceed.
   <br>
 For detailed tutorials, please check the script [2022-03-27_SEPR_Skript.pdf] (in German language).<br>
 © Copyright AIS, TUM 2022
