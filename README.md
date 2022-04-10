@@ -42,7 +42,7 @@ In the method **Communicate()** we use the library ***ncurses*** to get the keyb
 <br>
   commands:  
   | input | action |
-  | :----: | :----: |
+  | :---- | :---- |
   | 'w', 'a', 's', 'd' | directions |
   | 'b' | brake |
   | 'q' | quit the control panel |
