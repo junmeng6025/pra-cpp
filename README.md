@@ -14,22 +14,21 @@ Due to the COVID-19 pandemic, this project was organized online. Instead of the 
 <br>
 <div align=center>
   <img src="https://user-images.githubusercontent.com/83095045/162617975-0fa988e1-b323-481f-8dad-53976ae8b847.png" width="700"><br>
-  Fig 1. The hardware structure and the rendered simulation of "MoonRover" robot.<br>
+  Fig 1. The hardware structure and the rendered simulation of "MoonRover" robot<br>
   <br>
 </div>  
 
 
 
 ***To whom wants to replicate this project:**<br>
-All the required libraries (ncurses, jsoncpp, rt ...) and the "MoonRover" simulation program were already provided by the tutor in the virtual machine **Ubuntu_IDE_SEFI_Online**. If you are interested in this project and want to replicate it, it is recommended to edit and run the codes on this virtual machine using **VMware Player**.*<br>
-(*download “Ubuntu_IDE_SEFI_Online”*).<br>
+All the required libraries (ncurses, jsoncpp, rt ...) and the "MoonRover" simulation program were already provided by the tutor in the virtual machine **Ubuntu_IDE_SEFI_Online**. If you are interested in this project and want to replicate it, it is recommended to edit and run the codes on this virtual machine using **VMware Player**.* (*download “Ubuntu_IDE_SEFI_Online”*).<br>
 <br>
 **Tag4:**<br>
-The task of this part is to control the robot with the keyboard input. We have to create a class **<*KeyboardControl*>** to establish the data stream between the user and the robot. It contains two methods: **Communicate()** and **Step()**. The structure of <KeyboardControl> seeing below:<br>
+The task of this part is to control the robot with the keyboard input. We have to create a class **<*KeyboardControl*>** to establish the data stream between the user and the robot. It contains two methods: **Communicate()** and **Step()**. The structure of KeyboardControl seeing below:<br>
 <br>
   ![image](https://user-images.githubusercontent.com/83095045/162619854-ecc6c23d-d7ea-4646-ac79-c057a62cbe6a.png)<br>
   <div align=center>
-    Fig 2. The concept of the class KeyboardControl.<br>
+    Fig 2. The concept of the class KeyboardControl<br>
     <br>
     </div>
     
@@ -59,6 +58,14 @@ calculate the current actual value of the position array x = (x, y, w) using the
 **<*Maneuver*>:**<br>
 serves both the calculation of the coordinates of the maneuver, as well as the calculation of the target speeds to reach the next point of the coordinate list. There are two kinds of maneuvers: circle track and '8'-shape track.<br>
 <br>
+  <div align=center>
+    <img src="https://user-images.githubusercontent.com/83095045/162702760-757e9867-b7b4-436a-915f-090f67467087.png" width="700"><br>
+    Fig 3. Alignment of the coordinate system during initialization and robot during driving<br>
+    <br>
+  </div>
+  
+  
+  
 **<*PIDCtrl*>:**<br>
 provides a PID controller that adjusts the actual value to the target value smoothly.<br>
 <br>
@@ -68,7 +75,7 @@ the **"master class"**. It manages the call of the functions of each class at th
 Here is an overview of the entire architecture:<br>  
 ![image](https://user-images.githubusercontent.com/83095045/162617954-79e56018-e1f9-4385-89cc-f04eeee86cc4.png)<br>
 <div align=center>
-    Fig 3. The class diagrams of the maneuver control task.<br>
+    Fig 4. The class diagrams of the maneuver control task<br>
     <br>
     </div>
   
