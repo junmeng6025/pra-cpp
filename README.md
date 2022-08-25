@@ -84,7 +84,7 @@ Here is an overview of the entire architecture:<br>
   commands: [1]: start; [2]: stop; [3]: proceed.  
 | circle trajectory | 8-shaped trajectory |
 | :---- | :---- |
-| <img src="./Demo/demo_tag5_circle.gif" width="500"> | <img src="./Demo/demo_tag5_8.gif" width="500"> |
+| <img src="./Demo/demo_tag5_circle.gif" width="450"> | <img src="./Demo/demo_tag5_8.gif" width="450"> |
 | Radius = 0.5m | Radius = 0.3m |
 |Speed = 0.3m/s | Speed = 0.3m/s|
   
